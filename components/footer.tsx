@@ -19,12 +19,12 @@ export function Footer() {
           <p className="meta-text text-foreground-secondary flex items-center gap-2">
             Built with love and music by{" "}
             <a
-              href="https://x.com/damilare_oo"
+              href="https://instagram.com/aridimas.y"
               target="_blank"
               rel="noopener noreferrer"
               className="text-foreground hover:underline"
             >
-              Damilare
+              AriDimasYS
             </a>{" "}
             <a
               href="https://open.spotify.com/playlist/2WqAscMqGj6fGkjaYN9jsY?si=74ddec964be94dca"

@@ -27,23 +27,24 @@ export default function About() {
               transition={{ duration: 0.8, delay: 0.2 }}
             >
               <h1 className="section-title mb-4">About Me</h1>
-              <h2 className="hero-title mb-12">Your Name Here</h2>
+              <h2 className="hero-title mb-12">Ari Dimas Yudhi Setiawan</h2>
 
-              <div className="grid md:grid-cols-2 gap-12 mb-12">
+              <div className="grid grid-cols-[2fr_1fr] gap-12 mb-12 text-justify">
                 <motion.div
                   initial={{ opacity: 0, x: -20 }}
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.8 }}
                 >
+                  <p className="body-text text-foreground-secondary mb-6 ">
+                    It all started when I was just a curious kid who couldn’t stop wondering how the internet actually worked. I’d spend hours messing around with computers, breaking things just to see what would happen, and then trying to fix them again. That curiosity slowly turned into passion, a constant need to understand what happens behind the screen.</p>
                   <p className="body-text text-foreground-secondary mb-6">
-                    This is your about section. Share your story, background, and what drives you as a professional.
-                  </p>
-                  <p className="body-text text-foreground-secondary mb-6">
-                    Tell visitors about your experience, education, and the journey that led you to where you are today.
-                  </p>
+                    Years later, I decided to take that curiosity seriously and studied Informatics at Universitas Ahmad Dahlan. During college, I started diving deeper into how networks, systems, and security fit together. Around 2016, I discovered penetration testing, and it completely hooked me, learning how attackers think and how systems can be pushed to their limits was like solving endless puzzles. </p>
+                    <p className="body-text text-foreground-secondary mb-6">
+                    But over time, I realized there’s more to cybersecurity than just breaking things. I wanted to understand how to defend them too. That led me to join the Blue Team, working as a SOC L1 Threat analyst in Dias Naga Alpha on NagaCyberSecurity team for about 1.3 years. It was an eye-opening experience, learning how to detect threats, respond to incidents, and protect real systems under pressure.</p>
                   <p className="body-text text-foreground-secondary">
-                    Make it personal and authentic to create a meaningful connection with your audience.
+                    Now, I’m still on that same journey, learning, experimenting, and exploring new corners of cybersecurity. The same question that started it all still keeps me going:
+                    “How does the digital world really work beneath everything we think is safe?”
                   </p>
                 </motion.div>
 

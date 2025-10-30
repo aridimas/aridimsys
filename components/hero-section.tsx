@@ -39,12 +39,12 @@ export function HeroSection() {
           viewport={{ once: true, margin: "-100px" }}
         >
           <motion.div variants={itemVariants} className="mb-16">
-            <h1 className="hero-title text-foreground/80 whitespace-normal">DAMILARE OSOFISAN</h1>
+            <h1 className="hero-title text-foreground/80 whitespace-normal">Ari Dimas Yudhi Setiawan</h1>
           </motion.div>
 
           <motion.div variants={itemVariants} className="max-w-2xl">
             <p className="hero-subtitle text-foreground-secondary">
-              Designer and Builder shaping intuitive digital experiences.
+              Cybersecurity and Security Operations Center professional.
             </p>
           </motion.div>
         </motion.div>

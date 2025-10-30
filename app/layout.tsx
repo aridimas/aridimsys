@@ -8,20 +8,20 @@ import { Suspense } from "react"
 const timestamp = new Date().getTime()
 
 export const metadata: Metadata = {
-  title: "Damilare Osofisan | Designer & Developer",
-  description: "Portfolio of Damilare Osofisan, a designer and developer creating digital experiences.",
-  metadataBase: new URL("https://damilareoo.xyz"),
+  title: "Ari Dimas Yudhi Setiawan | Cyber Security | Security Operations Center",
+  description: "Portfolio of Ari Dimas Yudhi Setiawan, a Cybersecurity and Security Operations Center.",
+  metadataBase: new URL("https://aridimsys-portfolio.vercel.app/"),
   openGraph: {
-    title: "Damilare Osofisan | Designer & Developer",
-    description: "Portfolio of Damilare Osofisan, a designer and developer creating digital experiences.",
-    url: "https://damilareoo.xyz",
-    siteName: "Damilare Osofisan | damilareoo.xyz",
+    title: "Ari Dimas Yudhi Setiawan | Cyber Security | Security Operations Center",
+    description: "Portfolio of Ari Dimas Yudhi Setiawan, a Cybersecurity and Security Operations Center.",
+    url: "https://aridimsys-portfolio.vercel.app/",
+    siteName: "Ari Dimas Yudhi Setiawan | damilareoo.xyz",
     images: [
       {
         url: `/images/og-image.png?v=${timestamp}`,
         width: 1200,
         height: 630,
-        alt: "Damilare Osofisan",
+        alt: "Ari Dimas Yudhi Setiawan",
       },
     ],
     locale: "en_US",
@@ -29,10 +29,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Damilare Osofisan | Designer & Developer",
-    description: "Portfolio of Damilare Osofisan, a designer and developer creating digital experiences.",
+    title: "Ari Dimas Yudhi Setiawan | Cyber Security | Security Operations Center",
+    description: "Portfolio of Ari Dimas Yudhi Setiawan, a Cybersecurity and Security Operations Center.",
     images: [`/images/og-image.png?v=${timestamp}`],
-    creator: "@damilare_oo",
+    creator: "@aridimas.y",
   },
     generator: 'v0.app'
 }
@@ -62,12 +62,12 @@ export default function RootLayout({
         {/* Additional social media tags */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://damilareoo.xyz" />
-        <meta property="og:title" content="Damilare Osofisan | Designer & Developer" />
+        <meta property="og:title" content="Ari Dimas Yudhi Setiawan | Cyber Security | Security Operations Center" />
         <meta
           property="og:description"
-          content="Portfolio of Damilare Osofisan, a designer and developer creating digital experiences."
+          content="Portfolio of Ari Dimas Yudhi Setiawan, a Cybersecurity and Security Operations Center."
         />
-        <meta property="og:site_name" content="Damilare Osofisan | damilareoo.xyz" />
+        <meta property="og:site_name" content="Ari Dimas Yudhi Setiawan | damilareoo.xyz" />
 
         {/* Cache control for better refreshing */}
         <meta httpEquiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
