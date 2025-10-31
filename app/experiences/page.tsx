@@ -53,8 +53,8 @@ export default function Projects() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
             >
-              <h1 className="section-title mb-4">Portfolio</h1>
-              <h2 className="hero-title mb-12">Featured Projects</h2>
+              <h1 className="section-title mb-4"> <span>Port</span><><span className="text-cyan-400 glow-text">folio</span></></h1>
+              <h2 className="hero-title mb-12"><span>Professional</span> <span className="text-cyan-400 glow-text">Experience</span></h2>
 
               <div className="grid gap-8 mb-12">
                 {projects.map((project, index) => (

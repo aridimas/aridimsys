@@ -45,18 +45,19 @@ export default function Skills() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
             >
-              <h1 className="section-title mb-4">Skills & Expertise</h1>
-              <h2 className="hero-title mb-12">What I Can Do</h2>
+              <h1 className="section-title mb-4 text-cyan-400 glow-text">Skills & Expertise</h1>
+              <h2 className="hero-title mb-12"><span>What I Can </span>
+              <span className="text-cyan-400 glow-text">Do</span></h2>
 
               <div className="grid md:grid-cols-2 gap-8 mb-12">
                 {skillCategories.map((category, index) => (
-                  <motion.div
+                  <motion.div 
                     key={category.title}
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ duration: 0.8, delay: index * 0.1 }}
-                    className="bg-foreground/5 rounded-lg p-8"
+                    className="bg-foreground/5 rounded-lg p-8 "
                   >
                     <h3 className="project-title mb-6">{category.title}</h3>
                     <div className="flex flex-wrap">

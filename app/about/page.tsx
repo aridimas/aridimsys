@@ -53,7 +53,7 @@ export default function About() {
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.8 }}
-                  className="bg-foreground/5 rounded-lg p-8"
+                  className="bg-foreground/5 rounded-lg p-3"
                 >
                   <h3 className="project-title mb-6 leading-relaxed text-cyan-400 glow-text">Quick Facts</h3>
                   <ul className="space-y-4">

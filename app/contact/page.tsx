@@ -10,23 +10,23 @@ import { SmoothScrollProvider } from "@/components/smooth-scroll-provider"
 const contactMethods = [
   {
     label: "Email",
-    value: "your.email@example.com",
-    link: "mailto:your.email@example.com",
+    value: "aridimas145@gmail.com",
+    link: "mailto:aridimas145@gmail.com",
   },
   {
     label: "LinkedIn",
-    value: "linkedin.com/in/yourprofile",
-    link: "https://linkedin.com/in/yourprofile",
+    value: "ari dimas yudistiawan",
+    link: "https://id.linkedin.com/in/ari-dimas-yudistiawan",
   },
   {
-    label: "Twitter",
-    value: "@yourhandle",
-    link: "https://twitter.com/yourhandle",
+    label: "Instagram",
+    value: "@aridimas.y",
+    link: "https://instagram.com/aridimas.y",
   },
   {
     label: "GitHub",
-    value: "github.com/yourprofile",
-    link: "https://github.com/yourprofile",
+    value: "github.com/aridimas",
+    link: "https://github.com/aridimas/",
   },
 ]
 
@@ -49,8 +49,8 @@ export default function Contact() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
             >
-              <h1 className="section-title mb-4">Get in Touch</h1>
-              <h2 className="hero-title mb-12">Let's Connect</h2>
+              <h1 className="section-title mb-4 "> <span className="text-cyan-400 glow-text">Get in</span> <span>Touch</span> </h1>
+              <h2 className="hero-title mb-12"><span>Let's</span><span className="text-cyan-400 glow-text"> Connect</span></h2>
 
               <div className="grid md:grid-cols-2 gap-12 mb-12">
                 <motion.div
