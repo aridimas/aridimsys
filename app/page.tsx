@@ -27,7 +27,8 @@ export default function Home() {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="text-center"
             >
-              <h1 className="hero-title mb-6">Welcome to My Portfolio</h1>
+              <h1 className="hero-title mb-6"> <span>Welcome to My </span> 
+              <span className="text-cyan-400 glow-text">Portfolio</span></h1>
               <p className="hero-subtitle text-foreground-secondary mb-12">Explore my work, skills, and projects</p>
 
               <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
@@ -39,7 +40,7 @@ export default function Home() {
                 </Link>
                 <Link
                   href="/projects"
-                  className="px-8 py-4 border border-foreground text-foreground rounded-lg nav-text font-medium hover:bg-foreground/10 transition-colors duration-300"
+                  className="px-8 py-4 border border-foreground text-foreground border-cyan-500 rounded-lg nav-text font-medium hover:bg-foreground/10 transition-colors duration-300"
                 >
                   View Projects
                 </Link>

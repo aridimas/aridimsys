@@ -109,7 +109,7 @@ export default function Contact() {
                 </Link>
                 <Link
                   href="/about"
-                  className="px-8 py-4 border border-foreground text-foreground rounded-lg nav-text font-medium hover:bg-foreground/10 transition-colors duration-300"
+                  className="px-8 py-4 border border-foreground text-foreground border-cyan-500 rounded-lg nav-text font-medium hover:bg-foreground/10 transition-colors duration-300"
                 >
                   About Me
                 </Link>

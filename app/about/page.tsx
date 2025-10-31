@@ -26,7 +26,7 @@ export default function About() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
             >
-              <h1 className="section-title mb-4">About Me</h1>
+              <h1 className="section-title mb-4 text-cyan-400 glow-text">About Me</h1>
               <h2 className="hero-title mb-12">Ari Dimas Yudhi Setiawan</h2>
 
               <div className="grid grid-cols-[2fr_1fr] gap-12 mb-12 text-justify">
@@ -55,19 +55,19 @@ export default function About() {
                   transition={{ duration: 0.8 }}
                   className="bg-foreground/5 rounded-lg p-8"
                 >
-                  <h3 className="project-title mb-6">Quick Facts</h3>
+                  <h3 className="project-title mb-6 leading-relaxed text-cyan-400 glow-text">Quick Facts</h3>
                   <ul className="space-y-4">
                     <li className="body-text">
-                      <span className="text-foreground font-medium">Location:</span> Your City, Country
+                      <span className="text-foreground font-bold">Location:</span> Jakarta, Indonesia
                     </li>
                     <li className="body-text">
-                      <span className="text-foreground font-medium">Experience:</span> X+ Years
+                      <span className="text-foreground font-bold">Experience:</span> 24+ Years
                     </li>
                     <li className="body-text">
-                      <span className="text-foreground font-medium">Specialization:</span> Your Field
+                      <span className="text-foreground font-bold">Specialization:</span> Threat Analysis
                     </li>
                     <li className="body-text">
-                      <span className="text-foreground font-medium">Passion:</span> What you love doing
+                      <span className="text-foreground font-bold">Passion:</span> Music, Gaming, Tech, Sports
                     </li>
                   </ul>
                 </motion.div>
@@ -88,7 +88,7 @@ export default function About() {
                 </Link>
                 <Link
                   href="/contact"
-                  className="px-8 py-4 border border-foreground text-foreground rounded-lg nav-text font-medium hover:bg-foreground/10 transition-colors duration-300"
+                  className="px-8 py-4 border border-foreground text-foreground border-cyan-500 rounded-lg nav-text font-medium hover:bg-foreground/10 transition-colors duration-300"
                 >
                   Get in Touch
                 </Link>

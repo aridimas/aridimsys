@@ -9,20 +9,20 @@ import { SmoothScrollProvider } from "@/components/smooth-scroll-provider"
 
 const skillCategories = [
   {
-    title: "Frontend",
-    skills: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
+    title: "Defense",
+    skills: ["QRADAR", "Trellix ePO", "Trellix MTD", "Suricata", "Wireshark", "Etc."],
   },
   {
-    title: "Backend",
-    skills: ["Node.js", "Python", "PostgreSQL", "REST APIs", "GraphQL"],
+    title: "Offense",
+    skills: ["BurpSuite", "SQLMAP", "Accunetix", "Dirsearch", "Shodan/Censys", "Etc."],
   },
   {
     title: "Design",
     skills: ["UI/UX Design", "Figma", "Prototyping", "Design Systems", "Animation"],
   },
   {
-    title: "Tools",
-    skills: ["Git", "Docker", "AWS", "Vercel", "CI/CD"],
+    title: "Programming",
+    skills: ["PHP", "CSS", "Python", "React", "Next.js"],
   },
 ]
 
@@ -59,7 +59,7 @@ export default function Skills() {
                     className="bg-foreground/5 rounded-lg p-8"
                   >
                     <h3 className="project-title mb-6">{category.title}</h3>
-                    <div className="flex flex-wrap gap-3">
+                    <div className="flex flex-wrap">
                       {category.skills.map((skill) => (
                         <span
                           key={skill}
@@ -88,7 +88,7 @@ export default function Skills() {
                 </Link>
                 <Link
                   href="/contact"
-                  className="px-8 py-4 border border-foreground text-foreground rounded-lg nav-text font-medium hover:bg-foreground/10 transition-colors duration-300"
+                  className="px-8 py-4 border border-foreground text-foreground border-cyan-500 rounded-lg nav-text font-medium hover:bg-foreground/10 transition-colors duration-300"
                 >
                   Contact Me
                 </Link>

@@ -17,7 +17,7 @@ export function Footer() {
       <div className="container-xl">
         <div className="flex flex-col md:flex-row justify-center items-center text-center">
           <p className="meta-text text-foreground-secondary flex items-center gap-2">
-            Built with love and music by{" "}
+            Built with sincerity and music by{" "}
             <a
               href="https://instagram.com/aridimas.y"
               target="_blank"
@@ -27,7 +27,7 @@ export function Footer() {
               AriDimasYS
             </a>{" "}
             <a
-              href="https://open.spotify.com/playlist/2WqAscMqGj6fGkjaYN9jsY?si=74ddec964be94dca"
+              href="https://open.spotify.com/playlist/2WqAscMqGj6fGkjaYN9jsY?si=https://open.spotify.com/playlist/4Z75y8ZLoUCITFrKomjD8G?si=QfOMxILDRPu7lQe2nRRqDQ"
               target="_blank"
               rel="noopener noreferrer"
               className="relative text-white hover:text-foreground/80 transition-colors"
@@ -86,7 +86,7 @@ export function Footer() {
                       transition={{ delay: 0.1, duration: 0.2 }}
                     >
                       <iframe
-                        src="https://open.spotify.com/embed/playlist/2WqAscMqGj6fGkjaYN9jsY?utm_source=generator&theme=0"
+                        src="https://open.spotify.com/embed/playlist/4Z75y8ZLoUCITFrKomjD8G?utm_source=generator&theme=0"
                         width="100%"
                         height="100%"
                         frameBorder="0"
