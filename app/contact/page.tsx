@@ -64,7 +64,7 @@ export default function Contact() {
                     through any of the channels below.
                   </p>
                   <p className="body-text text-foreground-secondary">
-                    Whether you have a question or just want to say hello, don't hesitate to contact me!
+                    Whether you have a question or just want to say hello, don't hesitate to contact me.
                   </p>
                 </motion.div>
 
