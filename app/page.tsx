@@ -39,10 +39,10 @@ export default function Home() {
                   About Me
                 </Link>
                 <Link
-                  href="/projects"
+                  href="/experiences"
                   className="px-8 py-4 border border-foreground text-foreground border-cyan-500 rounded-lg nav-text font-medium hover:bg-foreground/10 transition-colors duration-300"
                 >
-                  View Projects
+                  View Experiences
                 </Link>
               </div>
             </motion.div>
