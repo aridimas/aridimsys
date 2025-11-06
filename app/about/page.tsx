@@ -61,7 +61,7 @@ export default function About() {
                       <span className="text-foreground font-bold">Location:</span> Jakarta, Indonesia
                     </li>
                     <li className="body-text">
-                      <span className="text-foreground font-bold">Experience:</span> 24+ Years
+                      <span className="text-foreground font-bold">Professional Experience:</span> 3+ Years
                     </li>
                     <li className="body-text">
                       <span className="text-foreground font-bold">Specialization:</span> Threat Analysis
