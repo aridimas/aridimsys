@@ -89,8 +89,8 @@ export default function Projects() {
               <div className="grid gap-8 mb-12">
                 {projects.map((project, index) => (
                   <motion.a
-                    key={project.title}
-                    href={project.link}
+                    key={project.title1}
+                   
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}

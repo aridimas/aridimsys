@@ -82,10 +82,10 @@ export default function Skills() {
                 className="flex gap-4 mt-12"
               >
                 <Link
-                  href="/projects"
+                  href="/experiences"
                   className="px-8 py-4 bg-foreground text-background rounded-lg nav-text font-medium hover:bg-foreground-secondary transition-colors duration-300"
                 >
-                  View Projects
+                  View Experiences
                 </Link>
                 <Link
                   href="/contact"
