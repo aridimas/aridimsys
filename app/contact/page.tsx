@@ -9,11 +9,6 @@ import { SmoothScrollProvider } from "@/components/smooth-scroll-provider"
 
 const contactMethods = [
   {
-    label: "Email",
-    value: "aridimas145@gmail.com",
-    link: "mailto:aridimas145@gmail.com",
-  },
-  {
     label: "LinkedIn",
     value: "ari dimas yudistiawan",
     link: "https://id.linkedin.com/in/ari-dimas-yudistiawan",
