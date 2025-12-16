@@ -17,6 +17,7 @@ export function Navbar() {
     { name: "Skills", href: "/skills", id: "skills" },
     { name: "Experiences", href: "/experiences", id: "experiences" },
     { name: "Contact", href: "/contact", id: "contact" },
+    
   ]
 
   useEffect(() => {

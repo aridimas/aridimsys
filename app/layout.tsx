@@ -61,7 +61,7 @@ export default function RootLayout({
 
         {/* Additional social media tags */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://damilareoo.xyz" />
+        <meta property="og:url" content="https://aridimsys.vercel.app/" />
         <meta property="og:title" content="Ari Dimas Yudhi Setiawan | Cyber Security | Security Operations Center" />
         <meta
           property="og:description"
